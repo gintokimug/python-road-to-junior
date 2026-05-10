@@ -1,0 +1,15 @@
+/* Установка фоновой картинки для всего рабочего пространства */
+.horizontal-main-container {
+    background-image: url('ССЫЛКА_НА_КАРТИНКУ'); /* Можно вставить ссылку из интернета */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Делаем основной фон заметок полупрозрачным, чтобы видеть картинку */
+.workspace-leaf {
+    background: transparent !important;
+}
+
+.view-content {
+    background-color: rgba(255, 255, 255, 0.05) !important; /* Настройка прозрачности */
+}

@@ -1,0 +1,7 @@
+/* Путь: .obsidian/snippets/my-colors.css */
+.markdown-rendered mark {
+    background-color: #ff5500; /* Цвет фона */
+    color: white;             /* Цвет текста */
+    padding: 0 4px;           /* Отступы по бокам */
+    border-radius: 4px;       /* Закругление */
+}

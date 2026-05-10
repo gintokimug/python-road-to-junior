@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "a4d085291713bea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e213fa8b9f17eecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9b75bf08a8dcc92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "list().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "list()"
+            }
+          },
+          {
+            "id": "955dbd11210c24e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ленивые вычисления"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a7da9b292d5103e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a01f520eb1305b84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6879081da4b79155",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "6eae829bb297281b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "a804fa359fc57f7d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4763cf399ff5d87",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e14b4dedd146f88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e255e4beaa437570",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b3f9b947e7a01206",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2908f786fe73f3b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "list().md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для list()"
+            }
+          },
+          {
+            "id": "291629affc38d0f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "list().md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из list()"
+            }
+          },
+          {
+            "id": "308e41565df2ca67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "f6ba110ce8ec72c6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "list().md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура list()"
+            }
+          },
+          {
+            "id": "3b5a86ee49de03b1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false
+    }
+  },
+  "active": "955dbd11210c24e9",
+  "lastOpenFiles": [
+    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨dict().md",
+    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨list().md",
+    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨set().md",
+    "🌏Python/🟩Типы данных/Изменяемые/Изменяемые.md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨complex().md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨float().md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨int().md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨None.md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨bool.md",
+    "HELPER.canvas",
+    "🌏Python/🟩Функции/Встроенные/👁‍🗨sum().md",
+    "🌏Python/🟩Функции/Встроенные/👁‍🗨sorted().md",
+    "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
+    "🌏Python/🟩Типы данных/0_Типы данных.md",
+    "Без названия.canvas",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨str().md",
+    "pop().md",
+    "🌏Python/🟩Функции/Встроенные",
+    "🌏Python/🟩Архитектура и память",
+    "🌏Python/🟩Функции/Синтаксис",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨tuple().md",
+    "🌏Python/🗺Python.md",
+    "🌏Python/🟩Типы данных/Неизменяемые/Неизменяемые.md",
+    "2026-05-05.md",
+    "🟩Функции.md",
+    "🟩Типы данных.md",
+    "🟢Неизменяемые (immutable).md",
+    "Срезы (slice).md",
+    "🎨Images/Pasted image 20260503090514.png",
+    "remove().md",
+    "discard().md",
+    "🎨Images/Pasted image 20260505152124.png",
+    "🎨Images",
+    "Pasted image 20260503131418.png",
+    "🌏Python/🟩Типы данных/Изменяемые",
+    "🌏Python/🟩Типы данных/Неизменяемые",
+    "🌏Python/🟩Функции",
+    "🌏Python/🟩Типы данных",
+    "🌏Python",
+    "Excalidraw",
+    "Pasted image 20260504104245.png",
+    "Pasted image 20260503090438.png",
+    "Python/Visual Map.canvas",
+    "Images/57aa5b5c64ea2d2a17d7b73e7b8b0f53.png",
+    "Папка 1/Без названия.canvas"
+  ]
+}
