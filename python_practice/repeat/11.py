@@ -10,4 +10,18 @@
 # Ваша функция вернет следующий массив:
 
 # ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
-# Элементы в возвращаемом массиве должны располагаться в том же порядке, что и в исходном массиве, переданном в вашу функцию, но без слова 'geese'. Обратите внимание, что все строки будут в том же регистре, что и исходные, а некоторые элементы могут повторяться.
+# Элементы в возвращаемом массиве должны располагаться в том же порядке, что и в исходном массиве, переданном в вашу функцию, но без слова 'geese'.
+#  Обратите внимание, что все строки будут в том же регистре, что и исходные, а некоторые элементы могут повторяться.
+
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+def goose_filter(birds):
+    #your code here
+    result = []
+    for word in birds:
+        if word not in geese:
+            result.append(word)
+    return result
+
+example = ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+print(goose_filter(example))
+

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
+                "file": "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨None.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ленивые вычисления"
+              "title": "👁‍🗨None"
             }
           }
         ],
@@ -192,8 +192,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -218,8 +218,10 @@
   },
   "active": "955dbd11210c24e9",
   "lastOpenFiles": [
-    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨dict().md",
     "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨list().md",
+    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨str().md",
+    "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
+    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨dict().md",
     "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨set().md",
     "🌏Python/🟩Типы данных/Изменяемые/Изменяемые.md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨complex().md",
@@ -230,10 +232,8 @@
     "HELPER.canvas",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨sum().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨sorted().md",
-    "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
     "🌏Python/🟩Типы данных/0_Типы данных.md",
     "Без названия.canvas",
-    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨str().md",
     "pop().md",
     "🌏Python/🟩Функции/Встроенные",
     "🌏Python/🟩Архитектура и память",
