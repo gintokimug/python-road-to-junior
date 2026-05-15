@@ -20,25 +20,43 @@ e (Domain Expansion): Расширение территории. Добавля�
 "p_p_b_e_!!!_r_d_b_e_???_p_r_b_b_e_x_d_d_d_d_e"
 """
 
-def solution(Payload : str):
-    energy : int = 0
-    result = []
+# def solution(Payload : str):
+#     energy : int = 0
+#     result = []
 
-    for move in Payload:
+#     for move in Payload:
 
-        if move == 'p':
-            energy += 5
-        elif move == 'r':
-            energy += 10
-        elif move == 'd':
-            energy -= 3
-        elif move == 'b':
-            energy *= 2
-        elif move == 'e':
-            result.append(energy)
-    return result
+#         if move == 'p':
+#             energy += 5
+#         elif move == 'r':
+#             energy += 10
+#         elif move == 'd':
+#             energy -= 3
+#         elif move == 'b':
+#             energy *= 2
+#         elif move == 'e':
+#             result.append(energy)
+#     return result
 
-example = "p_p_b_e_!!!_r_d_b_e_???_p_r_b_b_e_x_d_d_d_d_e"
-print(solution(example))
+# example = "p_p_b_e_!!!_r_d_b_e_???_p_r_b_b_e_x_d_d_d_d_e"
+# print(solution(example))
 
 
+def quick_sort(arr):
+	if len(arr) <= 1:
+	    return arr
+	
+	# выбираем опорный элемент Pivot
+	# Можно брать любой, для надёжности берётся из середины
+	pivot = arr[len(arr) // 2]
+	
+	# Разделение - линейная работа О(n)
+	# Проход по списку и раскидка элементов
+	left = [x for x in arr if x < pivot]
+	middle = [x for x in arr if x == pivot]
+	right = [x for x in arr if x > pivot]
+	
+	# Рекурсия и склейка 
+	# функция сортирует элементы и складывает 
+	return quick_sort(left) + middle + quick_sort(right)
+print(quick_sort([5, 2, 9, 1, 5, 6]))
