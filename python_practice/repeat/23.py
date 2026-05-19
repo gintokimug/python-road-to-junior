@@ -5,6 +5,14 @@
 # Не удаляйте и не добавляйте элементы в массив.
 
 
+
 def two_sort(array):
-    for word in array:
-        
+    # your code here
+    sort_array = sorted(array)
+
+    return '***'.join(sort_array[0])
+    print(array)
+    print(sort_array) 
+
+example = ["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]
+print(two_sort(example))
