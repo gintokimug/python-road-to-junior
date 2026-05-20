@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌏Python/🟩Функции/Встроенные/👁‍🗨  enumerate().md",
+                "file": "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨int().md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "👁‍🗨  enumerate()"
+              "title": "👁‍🗨int()"
             }
           }
         ]
@@ -203,12 +203,12 @@
   },
   "active": "c3713b5a1f508d41",
   "lastOpenFiles": [
-    "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
+    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨list().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨  enumerate().md",
+    "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨sorted().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨sum().md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨int().md",
-    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨list().md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨str().md",
     "Без названия.md",
     "🌏Python/🟩Архитектура и память/Сложность алгоритмов.md",
