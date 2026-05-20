@@ -2,11 +2,15 @@
 
 # [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 
-def grow(arr):
-    result = 0
+def grow(arr : list):
+
+    result = 1
     for num in arr:
-        result += result * num
-    return result
+        result *= num
+    return result 
+
+
+    
 
 
 example = [1, 2, 3, 4]
