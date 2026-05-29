@@ -6,16 +6,12 @@
 
 # Примечание: если число кратно и 3, и 5, учитывайте его только один раз.
 
-# def solution(number):
-#     if number < 0:
-#         return 0
-#     if number / 3
+def solution(number):
+    if number < 0:
+        return 0
+  
 
 
-x = 10 
- 
-a = 5
 
-b = 3
-
-print(x / a)       
+    
+    
