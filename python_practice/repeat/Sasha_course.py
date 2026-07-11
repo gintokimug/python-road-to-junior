@@ -219,81 +219,257 @@
 
 
 
-test_settings = { 
-                'THEME' : 'LIGHT'
-                }
+# test_settings = { 
+#                 'THEME' : 'LIGHT'
+#                 }
 
 
-def add_setting(dict_sett, tuple_kv):
+# def add_setting(dict_sett, tuple_kv):
 
-    lowercase_dict = {key.lower() : value.lower() for key,value in dict_sett.items()}
+#     lowercase_dict = {key.lower() : value.lower() for key,value in dict_sett.items()}
 
-    new_key = tuple_kv[0].lower()
-    new_value = tuple_kv[1].lower()
+#     new_key = tuple_kv[0].lower()
+#     new_value = tuple_kv[1].lower()
 
-    if new_key in lowercase_dict:
-        return f"Setting '{new_key}' already exists! Cannot add a new setting with this name."
+#     if new_key in lowercase_dict:
+#         return f"Setting '{new_key}' already exists! Cannot add a new setting with this name."
     
-    dict_sett[new_key] = new_value
-    return f"Setting '{new_key}' added with value '{new_value}' successfully!"
+#     dict_sett[new_key] = new_value
+#     return f"Setting '{new_key}' added with value '{new_value}' successfully!"
     
 
-def update_setting(dict_sett, tuple_kv):
+# def update_setting(dict_sett, tuple_kv):
 
-    lowercase_dict = {key.lower() : value.lower() for key,value in dict_sett.items()}
+#     lowercase_dict = {key.lower() : value.lower() for key,value in dict_sett.items()}
     
-    new_key = tuple_kv[0].lower()
-    new_value = tuple_kv[1].lower()
+#     new_key = tuple_kv[0].lower()
+#     new_value = tuple_kv[1].lower()
 
-    if new_key not in lowercase_dict:
-        return f"Setting '{new_key}' does not exist! Cannot update a non-existing setting."
+#     if new_key not in lowercase_dict:
+#         return f"Setting '{new_key}' does not exist! Cannot update a non-existing setting."
 
     
-    dict_sett[new_key] = new_value
-    return f"Setting '{new_key}' updated to '{new_value}' successfully!"
+#     dict_sett[new_key] = new_value
+#     return f"Setting '{new_key}' updated to '{new_value}' successfully!"
 
 
 
-def delete_setting(dict_sett, tuple_kv):
+# def delete_setting(dict_sett, tuple_kv):
 
-    low_key = tuple_kv.lower()
+#     low_key = tuple_kv.lower()
 
-    if low_key in dict_sett:
-        del dict_sett[low_key]
-        return f"Setting '{low_key}' deleted successfully!"
+#     if low_key in dict_sett:
+#         del dict_sett[low_key]
+#         return f"Setting '{low_key}' deleted successfully!"
     
-    if not low_key in dict_sett:
-        return f"Setting not found!"
+#     if not low_key in dict_sett:
+#         return f"Setting not found!"
 
 
-def view_settings(dict_sett):
-    # 1. Если словарь пуст - возвращаем базовую фразу
-    if not dict_sett:
-        return "No settings available."
+# def view_settings(dict_sett):
+#     # 1. Если словарь пуст - возвращаем базовую фразу
+#     if not dict_sett:
+#         return "No settings available."
     
-    # 2. Добавляем тот самый скрытый заголовок, который просит платформа!
-    result = "Current User Settings:\n"
+#     # 2. Добавляем тот самый скрытый заголовок, который просит платформа!
+#     result = "Current User Settings:\n"
     
-    # 3. Перебираем настройки
-    for key, value in dict_sett.items():
-        # Пишем ключ с большой буквы (capitalize), двоеточие, значение и перенос строки \n
-        result += f"{key.capitalize()}: {value}\n"
+#     # 3. Перебираем настройки
+#     for key, value in dict_sett.items():
+#         # Пишем ключ с большой буквы (capitalize), двоеточие, значение и перенос строки \n
+#         result += f"{key.capitalize()}: {value}\n"
         
-    return result
+#     return result
+
+    # print(update_setting({'theme': 'light'}, ('volume', 'high')))
+
+
+
+
+
+
+
+
+# class Planet:
+
+
+
+
+#     def __init__(self, name, planet_type, star):
+#         if type(name) != str:
+#             raise TypeError("name, planet type, and star must be strings")
+#         if not isinstance(planet_type, str):
+#             raise TypeError("name, planet type, and star must be strings")
+#         if not isinstance(star, str):
+#             raise TypeError("name, planet type, and star must be strings")
+#         if name == '':
+#             raise ValueError("name, planet_type, and star must be non-empty strings")
+#         if planet_type == '':
+#             raise ValueError("name, planet_type, and star must be non-empty strings")
+#         if star == '':
+#             raise ValueError("name, planet_type, and star must be non-empty strings")
+        
+#         self.name = name
+#         self.planet_type = planet_type
+#         self.star = star
+    
+#     def orbit(self):
+#         return f"{self.name} is orbiting around {self.star}..."
+    
+#     def __str__(self):
+#         return f"Planet: {self.name} | Type: {self.planet_type} | Star: {self.star}"
+    
+
+# planet_1 = Planet("Jupiter", "Giant", "Sun")
+# planet_2 = Planet("Saturn", "Giant", "Sun")
+# planet_3 = Planet("Pluto", "Dwarf", "Sun")
+# print(planet_1)
+# print(planet_2)
+# print(planet_3)
+
+# print(planet_1.orbit())
+# print(planet_2.orbit())
+# print(planet_3.orbit())
+
+
+
+
+# import datetime
+
+# class Email:
+#     def __init__(self, sender, receiver, subject, body):
+#         self.sender = sender
+#         self.receiver = receiver
+#         self.subject = subject
+#         self.body = body
+#         self.timestamp = datetime.datetime.now()
+#         self.read = False
+
+#     def mark_as_read(self):
+#         self.read = True
+
+#     def display_full_email(self):
+#         self.mark_as_read()
+#         print('\n--- Email ---')
+#         print(f'From: {self.sender.name}')
+#         print(f'To: {self.receiver.name}')
+#         print(f'Subject: {self.subject}')
+#         print(f"Received: {self.timestamp.strftime('%Y-%m-%d %H:%M')}")
+#         print(f'Body: {self.body}')
+#         print('------------\n')
+
+#     def __str__(self):
+#         status = 'Read' if self.read else 'Unread'
+#         return f"[{status}] From: {self.sender.name} | Subject: {self.subject} | Time: {self.timestamp.strftime('%Y-%m-%d %H:%M')}"
+
+# class User:
+#     def __init__(self, name):
+#         self.name = name
+#         self.inbox = Inbox()
+
+#     def send_email(self, receiver, subject, body):
+#         email = Email(sender=self, receiver=receiver, subject=subject, body=body)
+#         receiver.inbox.receive_email(email)
+#         print(f'Email sent from {self.name} to {receiver.name}!\n')
+
+#     def check_inbox(self):
+#         print(f"\n{self.name}'s Inbox:")
+#         self.inbox.list_emails()
+
+#     def read_email(self, index):
+#         self.inbox.read_email(index)
+
+#     def delete_email(self, index):
+#         self.inbox.delete_email(index)
+
+# class Inbox:
+#     def __init__(self):
+#         self.emails = []
+
+#     def receive_email(self, email):
+#         self.emails.append(email)
+
+#     def list_emails(self):
+#         if not self.emails:
+#             print('Your inbox is empty.\n')
+#             return
+#         print('\nYour Emails:')
+#         for i, email in enumerate(self.emails, start=1):
+#             print(f'{i}. {email}')
+
+#     def read_email(self, index):
+#         if not self.emails:
+#             print('Inbox is empty.\n')
+#             return
+#         actual_index = index - 1
+#         if actual_index < 0 or actual_index >= len(self.emails):
+#             print('Invalid email number.\n')
+#             return
+#         self.emails[actual_index].display_full_email()
+
+#     def delete_email(self, index):
+#         if not self.emails:
+#             print('Inbox is empty.\n')
+#             return
+#         actual_index = index - 1
+#         if actual_index < 0 or actual_index >= len(self.emails):
+#             print('Invalid email number.\n')
+#             return
+#         del self.emails[actual_index]
+#         print('Email deleted.\n')
+
+# def main():
+#     tory = User('Tory')
+#     ramy = User('Ramy')        
+    
+#     tory.send_email(ramy, 'Hello', 'Hi Ramy, just saying hello!')
+#     ramy.send_email(tory, 'Re: Hello', 'Hi Tory, hope you are fine.')
+#     ramy.check_inbox()
+#     ramy.read_email(1)
+#     ramy.delete_email(1)
+#     ramy.check_inbox()   
+# if __name__ == '__main__':
+#     main()
+
+
+# class Dog:
+#     def __init__(name, age):
+#         self.name = name
+#         self.age = age
+
+# dog = Dog("Pinky", 3)
+# print(dog.name)
+
+
+
+class Category:
+    
+    def __init__(self, name):
+
+        self.ledger = []
+        self.name = name
+    
+    def deposit(self, amount, description = ""):
+
+        self.ledger.append({'amount': amount ,'description': description})
+    
+    def withdraw(self, amount, description = ""):
+
+        self.ledger.append({'amount': -amount ,'description': description})
+
+        if sum(self.ledger) - amount > 0:
+            return True 
+        else:
+            return False 
+        
+
+
+
+
+        
+
+        def create_spend_chart(name):
 
     
 
-       
-    
-    
-
-    
-
-    
-
-print(update_setting({'theme': 'light'}, ('volume', 'high')))
-
-
-
-    
-    
+   
