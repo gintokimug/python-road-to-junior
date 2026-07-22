@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Без названия.canvas",
+                "file": "Вопросы.canvas",
                 "viewState": {
-                  "x": -930,
-                  "y": -360,
-                  "zoom": 0
+                  "x": -2181.116199879874,
+                  "y": -430.19090046884907,
+                  "zoom": -0.3801664981432042
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Без названия"
+              "title": "Вопросы"
             }
           }
         ]
@@ -206,9 +206,10 @@
   },
   "active": "c7b28a3e57792b43",
   "lastOpenFiles": [
-    "HELPER.canvas",
-    "Без названия.canvas",
+    "🎨Images/Pasted image 20260723010310.png",
     "🌏Python/🟩Архитектура и память/Сложность алгоритмов.md",
+    "Вопросы.canvas",
+    "HELPER.canvas",
     "🎨Images/Pasted image 20260709211234.png",
     "🌏Python/🟩 Ошибки и Отладка (Exceptions & Debugging)/2.Управление исключениями try, except, raise.md",
     "🌏Python/🟩Управляющие конструкции (Циклы)/Операторы break и continue.md",

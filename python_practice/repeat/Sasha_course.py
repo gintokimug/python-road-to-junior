@@ -442,25 +442,25 @@
 
 
 
-class Category:
+# class Category:
     
-    def __init__(self, name):
+#     def __init__(self, name):
 
-        self.ledger = []
-        self.name = name
+#         self.ledger = []
+#         self.name = name
     
-    def deposit(self, amount, description = ""):
+#     def deposit(self, amount, description = ""):
 
-        self.ledger.append({'amount': amount ,'description': description})
+#         self.ledger.append({'amount': amount ,'description': description})
     
-    def withdraw(self, amount, description = ""):
+#     def withdraw(self, amount, description = ""):
 
-        self.ledger.append({'amount': -amount ,'description': description})
+#         self.ledger.append({'amount': -amount ,'description': description})
 
-        if sum(self.ledger) - amount > 0:
-            return True 
-        else:
-            return False 
+#         if sum(self.ledger) - amount > 0:
+#             return True 
+#         else:
+#             return False 
         
 
 
@@ -468,8 +468,104 @@ class Category:
 
         
 
-        def create_spend_chart(name):
+#         def create_spend_chart(name):
 
-    
+
+
+# def binary_search(sorted_list, target):
+#     low = 0
+#     high = len(sorted_list) - 1
+
+#     while low <= high:
+#         mid = (low + high) // 2
+#         guess = sorted_list[mid]
+        
+#         # Все эти проверки должны быть внутри цикла while:
+#         if guess == target:
+#             return mid  # Возвращаем индекс найденного элемента
+#         elif guess > target:
+#             high = mid - 1  # Отсекаем правую часть
+#         else:
+#             low = mid + 1  # Отсекаем левую часть
+            
+#     return None  # Если ничего не нашли
+
 
    
+# # 1. Наш отсортированный список
+# my_list = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+# # --- Тест 1: Ищем элемент, который ЕСТЬ в списке ---
+# target_1 = 7
+# result_1 = binary_search(my_list, target_1)
+
+# print(f"Ищем число {target_1}...")
+# if result_1 is not None:
+#     print(f"Успех! Число {target_1} найдено под индексом: {result_1}")
+#     print(f"Проверка: элемент под индексом {result_1} равен {my_list[result_1]}\n")
+# else:
+#     print("Число не найдено.\n")
+
+
+# def merge(left, right):
+#     result = []  # для результата
+#     i = 0  # индекс левого списка
+#     j = 0  # индекс правого списка 
+    
+#     # пока мы не дошли до конца хотя бы одного из списков
+#     while i < len(left) and j < len(right):
+#         if left[i] < right[j]: 
+#             result.append(left[i])  # левый меньше, добавляем в результат
+#             i += 1  # сдвиг левого указателя вперёд 
+#         else:
+#             result.append(right[j])  # правый меньше, кладём его 
+#             j += 1  # сдвигаем правый указатель вперёд 
+            
+#     # Добавляем остатки (если один список закончился раньше другого)
+#     result.extend(left[i:])
+#     result.extend(right[j:])
+#     return result 
+
+
+# def merge_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+    
+#     # Рубим пополам (все отступы выровнены!)
+#     mid = len(arr) // 2
+#     left_half = arr[:mid]
+#     right_half = arr[mid:]
+    
+#     # Рекурсия (сортировка половинок)
+#     left_sorted = merge_sort(left_half)
+#     right_sorted = merge_sort(right_half)
+    
+#     # Склейка
+#     return merge(left_sorted, right_sorted)
+
+
+# # Проверка работы
+# print(merge_sort([38, 27, 43, 3, 9, 82, 10]))
+
+
+
+
+
+
+
+import time
+
+class CodeTimer:
+    def __enter__(self):
+        self.start_time = time.time()  # Засекаем старт
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.end_time = time.time()    # Засекаем финиш
+        execution_time = self.end_time - self.start_time
+        print(f"⏱️ Код выполнился за {execution_time:.4f} сек.")
+
+# Использование:
+with CodeTimer():
+    # Имитируем «тяжелые» вычисления
+    total = sum(i ** 2 for i in range(10_000_000))
