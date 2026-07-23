@@ -15,9 +15,9 @@
               "state": {
                 "file": "Вопросы.canvas",
                 "viewState": {
-                  "x": -2181.116199879874,
-                  "y": -430.19090046884907,
-                  "zoom": -0.3801664981432042
+                  "x": -2220.7485908126478,
+                  "y": -461.3271331711446,
+                  "zoom": -0.37472496453026344
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -206,10 +206,11 @@
   },
   "active": "c7b28a3e57792b43",
   "lastOpenFiles": [
+    "HELPER.canvas",
+    "🌏Python/🟩Функции/Встроенные/👁‍🗨  enumerate().md",
+    "Вопросы.canvas",
     "🎨Images/Pasted image 20260723010310.png",
     "🌏Python/🟩Архитектура и память/Сложность алгоритмов.md",
-    "Вопросы.canvas",
-    "HELPER.canvas",
     "🎨Images/Pasted image 20260709211234.png",
     "🌏Python/🟩 Ошибки и Отладка (Exceptions & Debugging)/2.Управление исключениями try, except, raise.md",
     "🌏Python/🟩Управляющие конструкции (Циклы)/Операторы break и continue.md",
@@ -221,7 +222,6 @@
     "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨list().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨map().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨zip().md",
-    "🌏Python/🟩Функции/Встроенные/👁‍🗨  enumerate().md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨sum().md",
     "🌏Python/🟩Управляющие конструкции (Циклы)",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨int().md",
