@@ -553,19 +553,4 @@
 
 
 
-import time
 
-class CodeTimer:
-    def __enter__(self):
-        self.start_time = time.time()  # Засекаем старт
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        self.end_time = time.time()    # Засекаем финиш
-        execution_time = self.end_time - self.start_time
-        print(f"⏱️ Код выполнился за {execution_time:.4f} сек.")
-
-# Использование:
-with CodeTimer():
-    # Имитируем «тяжелые» вычисления
-    total = sum(i ** 2 for i in range(10_000_000))
