@@ -11,17 +11,14 @@
             "id": "c7b28a3e57792b43",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Вопросы.canvas",
-                "viewState": {
-                  "x": -2570,
-                  "y": -101.57172557172555,
-                  "zoom": -0.1642483789824635
-                }
+                "file": "🌏Python/🟩Сети и Web/🌐 HTTP-протокол.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Вопросы"
+              "icon": "lucide-file",
+              "title": "🌐 HTTP-протокол"
             }
           }
         ]
@@ -206,6 +203,14 @@
   },
   "active": "c7b28a3e57792b43",
   "lastOpenFiles": [
+    "🎨Images/Pasted image 20260728184452.png",
+    "🌏Python/🟩Сети и Web/🌐 HTTP-протокол.md",
+    "🌏Python/🟩Сети и Web",
+    "🎨Images/Pasted image 20260728184444.png",
+    "🎨Images/Pasted image 20260723010310.png",
+    "🎨Images/Pasted image 20260709211234.png",
+    "🎨Images/Pasted image 20260505152124.png",
+    "🎨Images/Pasted image 20260503090514.png",
     "🌏Python/🟨ООП/📕SOLID.md",
     "Вопросы.canvas",
     "HELPER.canvas",
@@ -215,14 +220,8 @@
     "🌏Python/🟨ООП",
     "🌏Python/🟩Управляющие конструкции (Циклы)/Операторы break и continue.md",
     "🌏Python/🟩 Ошибки и Отладка (Exceptions & Debugging)/2.Управление исключениями try, except, raise.md",
-    "🎨Images/Pasted image 20260728184452.png",
-    "🎨Images/Pasted image 20260728184444.png",
-    "🎨Images/Pasted image 20260723010310.png",
-    "🎨Images/Pasted image 20260709211234.png",
-    "🎨Images/Pasted image 20260503090514.png",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨zip().md",
     "🌏Python/🗺Python.md",
-    "🎨Images/Pasted image 20260505152124.png",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨  enumerate().md",
     "🌏Python/🟩Архитектура и память/Сложность алгоритмов.md",
     "🌏Python/🟩Функции/Встроенные/👁‍🗨filter().md",
@@ -241,7 +240,6 @@
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨float().md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨complex().md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨bool.md",
-    "🌏Python/🟩Типы данных/Изменяемые/👁‍🗨set().md",
     "🌏Python/🟩Функции/Встроенные",
     "🌏Python/🟩Архитектура и память",
     "🌏Python/🟩Функции/Синтаксис",
@@ -249,7 +247,6 @@
     "Pasted image 20260503131418.png",
     "🌏Python/🟩Типы данных/Изменяемые",
     "🌏Python/🟩Типы данных/Неизменяемые",
-    "🌏Python/🟩Функции",
     "Pasted image 20260504104245.png",
     "Pasted image 20260503090438.png",
     "Python/Visual Map.canvas",
