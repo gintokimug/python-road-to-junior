@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌏Python/🟩Сети и Web/🌐 HTTP-протокол.md",
+                "file": "🌏Python/🟩Сети и Web/API/Входные данные/Параметры пути.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🌐 HTTP-протокол"
+              "title": "Параметры пути"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -203,8 +205,14 @@
   },
   "active": "c7b28a3e57792b43",
   "lastOpenFiles": [
-    "🎨Images/Pasted image 20260728184452.png",
+    "HELPER.canvas",
+    "🌏Python/🟩Сети и Web/API/Входные данные/Параметры пути.md",
+    "🌏Python/🟩Сети и Web/API/Входные данные/Параметры запроса (Query Parameters).md",
+    "🌏Python/🟩Сети и Web/API/Входные данные/Endpoint in FastAPI.md",
+    "🌏Python/🟩Сети и Web/API/Входные данные",
     "🌏Python/🟩Сети и Web/🌐 HTTP-протокол.md",
+    "🌏Python/🟩Сети и Web/API",
+    "🎨Images/Pasted image 20260728184452.png",
     "🌏Python/🟩Сети и Web",
     "🎨Images/Pasted image 20260728184444.png",
     "🎨Images/Pasted image 20260723010310.png",
@@ -213,7 +221,6 @@
     "🎨Images/Pasted image 20260503090514.png",
     "🌏Python/🟨ООП/📕SOLID.md",
     "Вопросы.canvas",
-    "HELPER.canvas",
     "🌏Python/🟩 Ошибки и Отладка (Exceptions & Debugging)/1. Ошибки.md",
     "🌏Python/🟨ООП/Без названия 1.md",
     "🌏Python/🟩Архитектура и память/Ленивые вычисления.md",
@@ -237,16 +244,11 @@
     "🌏Python/🟩Типы данных/0_Типы данных.md",
     "🌏Python/🟩Типы данных/Неизменяемые/Неизменяемые.md",
     "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨tuple().md",
-    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨float().md",
-    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨complex().md",
-    "🌏Python/🟩Типы данных/Неизменяемые/👁‍🗨bool.md",
     "🌏Python/🟩Функции/Встроенные",
     "🌏Python/🟩Архитектура и память",
     "🌏Python/🟩Функции/Синтаксис",
     "🎨Images",
     "Pasted image 20260503131418.png",
-    "🌏Python/🟩Типы данных/Изменяемые",
-    "🌏Python/🟩Типы данных/Неизменяемые",
     "Pasted image 20260504104245.png",
     "Pasted image 20260503090438.png",
     "Python/Visual Map.canvas",
